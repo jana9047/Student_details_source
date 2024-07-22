@@ -1,0 +1,83 @@
+2024-07-15 11:07:58,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-15 11:07:58,722 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-15 11:07:58,735 - INFO -  * Restarting with stat
+2024-07-15 11:07:59,027 - WARNING -  * Debugger is active!
+2024-07-15 11:07:59,027 - INFO -  * Debugger PIN: 121-780-818
+2024-07-15 11:08:02,929 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:02] "GET / HTTP/1.1" 200 -
+2024-07-15 11:08:03,154 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:03] "GET /static/project1.css HTTP/1.1" 200 -
+2024-07-15 11:08:03,165 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-07-15 11:08:03,255 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:03] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2024-07-15 11:08:03,290 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:03] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2024-07-15 11:08:03,297 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:03] "GET /static/project1.js HTTP/1.1" 200 -
+2024-07-15 11:08:04,040 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:04] "GET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1" 200 -
+2024-07-15 11:08:05,152 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:05] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:08:06,813 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-15 11:08:53,305 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:53] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:08:53,309 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:53] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:08:56,133 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:56] "GET / HTTP/1.1" 200 -
+2024-07-15 11:08:56,149 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:56] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-07-15 11:08:56,149 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-07-15 11:08:56,159 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:56] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-07-15 11:08:56,159 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:56] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-07-15 11:08:56,159 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:56] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-07-15 11:08:56,159 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:56] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-07-15 11:08:56,208 - INFO - 127.0.0.1 - - [15/Jul/2024 11:08:56] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:09:08,228 - INFO - 127.0.0.1 - - [15/Jul/2024 11:09:08] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:11:33,453 - INFO - 127.0.0.1 - - [15/Jul/2024 11:11:33] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:11:33,458 - INFO - 127.0.0.1 - - [15/Jul/2024 11:11:33] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:12:32,997 - INFO - 127.0.0.1 - - [15/Jul/2024 11:12:32] "GET / HTTP/1.1" 200 -
+2024-07-15 11:12:33,019 - INFO - 127.0.0.1 - - [15/Jul/2024 11:12:33] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-07-15 11:12:33,020 - INFO - 127.0.0.1 - - [15/Jul/2024 11:12:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-07-15 11:12:33,054 - INFO - 127.0.0.1 - - [15/Jul/2024 11:12:33] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-07-15 11:12:33,054 - INFO - 127.0.0.1 - - [15/Jul/2024 11:12:33] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-07-15 11:12:33,061 - INFO - 127.0.0.1 - - [15/Jul/2024 11:12:33] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-07-15 11:12:33,077 - INFO - 127.0.0.1 - - [15/Jul/2024 11:12:33] "GET /static/project1.js HTTP/1.1" 200 -
+2024-07-15 11:12:34,192 - INFO - 127.0.0.1 - - [15/Jul/2024 11:12:34] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:14:59,511 - INFO - 127.0.0.1 - - [15/Jul/2024 11:14:59] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:14:59,513 - INFO - 127.0.0.1 - - [15/Jul/2024 11:14:59] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:15:23,190 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:23] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:15:25,126 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:25] "GET / HTTP/1.1" 200 -
+2024-07-15 11:15:25,154 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:25] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-07-15 11:15:25,154 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-07-15 11:15:25,154 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:25] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-07-15 11:15:25,154 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:25] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-07-15 11:15:25,154 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:25] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-07-15 11:15:25,154 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:25] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-07-15 11:15:25,535 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:25] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:15:25,611 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:25] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:15:45,490 - INFO - 127.0.0.1 - - [15/Jul/2024 11:15:45] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:16:09,093 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:09] "GET / HTTP/1.1" 200 -
+2024-07-15 11:16:09,119 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:09] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-07-15 11:16:09,122 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-07-15 11:16:09,123 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:09] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-07-15 11:16:09,126 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:09] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-07-15 11:16:09,128 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:09] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-07-15 11:16:09,130 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:09] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-07-15 11:16:09,169 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:09] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:16:09,175 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:09] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-15 11:16:53,996 - INFO - 127.0.0.1 - - [15/Jul/2024 11:16:53] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-19 20:25:08,453 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-19 20:25:08,453 - INFO - [33mPress CTRL+C to quit[0m
+2024-07-19 20:25:08,466 - INFO -  * Restarting with stat
+2024-07-19 20:25:08,754 - WARNING -  * Debugger is active!
+2024-07-19 20:25:08,761 - INFO -  * Debugger PIN: 121-780-818
+2024-07-19 20:25:20,628 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:20] "GET / HTTP/1.1" 200 -
+2024-07-19 20:25:21,045 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:21] "GET /static/project1.css HTTP/1.1" 200 -
+2024-07-19 20:25:21,063 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:21] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-07-19 20:25:21,125 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:21] "GET /static/project1.js HTTP/1.1" 200 -
+2024-07-19 20:25:21,136 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:21] "GET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1" 200 -
+2024-07-19 20:25:21,179 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:21] "GET /static/js/bootstrap.min.js HTTP/1.1" 200 -
+2024-07-19 20:25:21,192 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:21] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+2024-07-19 20:25:31,299 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-19 20:25:39,941 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:39] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-19 20:25:45,279 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:45] "GET / HTTP/1.1" 200 -
+2024-07-19 20:25:45,305 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:45] "[36mGET /static/project1.css HTTP/1.1[0m" 304 -
+2024-07-19 20:25:45,307 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-07-19 20:25:45,309 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:45] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+2024-07-19 20:25:45,309 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:45] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2024-07-19 20:25:45,311 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:45] "[36mGET /static/project1.js HTTP/1.1[0m" 304 -
+2024-07-19 20:25:45,315 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:45] "[36mGET /static/video/KSRCT%20Logo_Colour.webp HTTP/1.1[0m" 304 -
+2024-07-19 20:25:50,435 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:50] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
+2024-07-19 20:25:50,440 - INFO - 127.0.0.1 - - [19/Jul/2024 20:25:50] "[35m[1mGET /static/video/K%20S%20R%20Educational%20Institutions.mkv HTTP/1.1[0m" 206 -
