@@ -3,14 +3,14 @@ name: CI Workflow
 on:
   push:
     branches:
-      - main  # Change to your default branch if different
+      - main
   pull_request:
     branches:
-      - main  # Change to your default branch if different
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # You can change this to windows-latest if needed
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
@@ -19,12 +19,20 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.x'  # Specify your Python version here
+        python-version: '3.x'  # Replace '3.x' with the specific version you want, e.g., '3.12'
+
+    - name: Cache Python packages
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt  # Fixed the file name here
+        pip install -r requirement.txt  # Ensure you have the correct filename 'requirement.txt'
 
     - name: Run kamal.py
-      run: python kamal.py
+      run: python kamal.py  # Adjust if needed
