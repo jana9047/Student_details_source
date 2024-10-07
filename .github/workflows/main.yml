@@ -17,6 +17,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '17'  # Specify your Java version if needed
+          distribution: 'temurin'  # Use 'temurin' for Adoptium's OpenJDK distribution
 
       - name: Install Flutter
         run: |
