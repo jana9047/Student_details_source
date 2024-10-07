@@ -38,4 +38,4 @@ jobs:
         pip install -r requirement.txt  # Make sure the filename matches
 
     - name: Run kamal.py
-      run: python kamal.py  # Adjust if needed
+      run: python kamal.py  # Adjust if needed 
