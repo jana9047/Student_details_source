@@ -25,12 +25,14 @@ jobs:
           echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
 
       - name: Flutter Pub Get
+        working-directory: D:/Student_details_source  # Change to your project directory
         run: |
           flutter pub get
 
       - name: Build Flutter App
+        working-directory: D:/Student_details_source  # Change to your project directory
         run: |
-          flutter build apk -t lib/main.py  # Change as per your target
+          flutter build apk -t lib/main.py  # Change to your main.py file
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
