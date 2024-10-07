@@ -1,41 +1,30 @@
-name: Flutter Build and Deploy
+name: CI Workflow
 
 on:
   push:
     branches:
-      - main  # Change to your default branch
+      - main  # Change to your default branch if different
+  pull_request:
+    branches:
+      - main  # Change to your default branch if different
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # You can change this to windows-latest if needed
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set up JDK
-        uses: actions/setup-java@v3
-        with:
-          java-version: '17'  # Specify your Java version if needed
-          distribution: 'temurin'  # Use 'temurin' for Adoptium's OpenJDK distribution
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'  # Specify your Python version here
 
-      - name: Install Flutter
-        run: |
-          git clone https://github.com/flutter/flutter.git -b stable
-          echo "${{ github.workspace }}/flutter/bin" >> $GITHUB_PATH
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirement.txt
 
-      - name: Flutter Pub Get
-        working-directory: ./Student_details_source  # Use a relative path
-        run: |
-          flutter pub get
-
-      - name: Build Flutter App
-        working-directory: ./Student_details_source  # Use a relative path
-        run: |
-          flutter build apk -t lib/main.py  # Ensure main.py is the entry point
-
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: flutter-apk
-          path: build/app/outputs/flutter-apk/app-release.apk  # Adjust the path as needed
+    - name: Run kamal.py
+      run: python kamal.py
