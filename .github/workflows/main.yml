@@ -20,6 +20,7 @@ jobs:
       uses: actions/setup-java@v3  # Updated to the latest Java setup version
       with:
         java-version: '11'  # Specify the JDK version
+        distribution: 'temurin'  # Specify the JDK distribution (use 'adopt' or 'zulu' if preferred)
 
     - name: Install Flutter
       run: |
